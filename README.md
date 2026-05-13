@@ -4,7 +4,7 @@ SparseSignals explores scalable machine learning methods for sparse high-dimensi
 
 ## Project Overview
 
-This project was completed as a PSTAT 199 independent study project at UC Santa Barbara. The goal is to study how modern statistical learning methods perform when classical models become less practical in high-dimensional settings.
+The goal of this project is to study how modern statistical learning methods perform when classical models become less practical in high-dimensional settings.
 
 The dataset contains SMS messages labeled as either spam or ham. After TF-IDF transformation, the text data becomes a sparse high-dimensional feature matrix, making it suitable for studying scalable learning methods.
 

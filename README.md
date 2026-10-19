@@ -8,13 +8,11 @@
 
 [Read the report](reports/SparseSignals.pdf) · [Explore the analysis](analysis/SparseSignals.Rmd) · [Reproduce the study](#reproduce-the-study)
 
-<p align="center">
-  <a href="https://www.r-project.org/"><img src="https://www.r-project.org/logo/Rlogo.svg" alt="R" title="R" height="48"></a>
-  &nbsp;&nbsp;
-  <a href="https://pkgs.rstudio.com/rmarkdown/"><img src="https://pkgs.rstudio.com/rmarkdown/reference/figures/logo.png" alt="R Markdown" title="R Markdown" height="48"></a>
-  &nbsp;&nbsp;
-  <a href="https://www.tidyverse.org/"><img src="https://tidyverse.tidyverse.org/logo.png" alt="tidyverse" title="tidyverse" height="48"></a>
-</p>
+[![R](https://img.shields.io/badge/Language-R-276DC3?logo=r&logoColor=white)](https://www.r-project.org/)
+[![R Markdown](https://img.shields.io/badge/Analysis-R%20Markdown-497698)](https://pkgs.rstudio.com/rmarkdown/)
+[![Dataset](https://img.shields.io/badge/Dataset-SMS%20Spam%20Collection-334155)](data/README.md)
+
+[![tidyverse](https://img.shields.io/badge/Tools-tidyverse-1A162D)](https://www.tidyverse.org/)
 
 </div>
 

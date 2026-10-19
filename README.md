@@ -18,6 +18,8 @@
 
 ## Overview
 
+This independent project was completed by **Jimmy Wu** while a student at the **University of California, Santa Barbara (UCSB)**, working with **Dr. Tony Coburn**.
+
 SparseSignals examines how regularization, reduced feature spaces, and nonlinear decision boundaries affect SMS spam classification. The study uses **5,572 messages** from the SMS Spam Collection and compares seven model configurations in R.
 
 The central question: **how much predictive information can a model retain as the representation becomes simpler?** The analysis connects text preprocessing and TF–IDF features to model evaluation, with attention to class imbalance and interpretability.
@@ -123,8 +125,10 @@ SparseSignals/
 - Although the document-term matrix is sparse, the modeling code materializes a dense matrix. This study does not establish an end-to-end sparse-memory implementation or a measured scalability benchmark.
 - The comparison uses one train/test partition. No deployment interface or production spam-filtering service is included.
 
-## Author and data credit
+## Author, academic collaboration, and data credit
 
 **Jimmy Wu** · [GitHub](https://github.com/JimmyWu-312)
+
+**Academic collaboration:** Dr. Tony Coburn, University of California, Santa Barbara.
 
 The study uses the **SMS Spam Collection**, credited in the report to the UCI Machine Learning Repository. Full methodological references are included in the [report](reports/SparseSignals.pdf).

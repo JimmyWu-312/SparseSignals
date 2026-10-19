@@ -41,7 +41,7 @@ Next, two dimension reduction approaches, Truncated singular value decomposition
 ## Data Exploration
 Before comparing the models, we first explore the structure of the dataset and the resulting TF-IDF matrix.
 ```{r}
-sms <- read.csv("spam.csv", stringsAsFactors = FALSE)
+sms <- read.csv("data/spam.csv", stringsAsFactors = FALSE)
 
 sms <- sms %>%
   select(label = v1, text = v2)
